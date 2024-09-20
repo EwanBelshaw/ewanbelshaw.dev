@@ -1,0 +1,49 @@
+
+
+
+
+body{
+
+    background-color: #FCFFDA;
+
+
+}
+
+button{
+position: fixed;
+height: 40px;
+width: 100px;
+background-color: #83B4FF;
+border-radius: 15px;
+top: 30px;
+box-shadow: grey 0px 2px 4px;
+font-weight: bold;
+color: #1A2130;
+border: none;
+}
+
+#me{
+    border-style: solid;
+    top: 100px;
+    left: 40px;
+    border-width: 3px;
+    border-radius: 15px;
+max-width: 40%;
+max-height: 40%;
+position: fixed;
+box-shadow: grey 0px 2px 4px;
+border-color:#83B4FF;
+
+}
+#B1{
+    right: 50px;
+
+}
+
+#B2{
+    right: 200px;
+}
+
+#B3{
+    right: 350px;
+}

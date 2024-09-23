@@ -54,11 +54,11 @@ border-color:#83B4FF;
     border-color:#FCFFDA;
     box-shadow: grey 0px 2px 4px;
     background-color: #83B4FF;
-    top: 440px;
+    top: 400px;
     left: 40px;
     border-radius: 18px;
     height: 40px;
-    width: 261px;
+    width: 234px;
     border-style: solid;
     text-align: center;
 }
@@ -76,7 +76,7 @@ border-color:#83B4FF;
 
 #github{
     
-    left: 45%;
+    left: 38.5%;
     width: 35px;
     height: 35px;
     position: fixed;

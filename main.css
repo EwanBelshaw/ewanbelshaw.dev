@@ -58,14 +58,14 @@ border-color:#83B4FF;
     left: 40px;
     border-radius: 18px;
     height: 40px;
-    width: 234px;
+    width: 262px;
     border-style: solid;
     text-align: center;
 }
 
 #linkedin{
 
-    left: 10%;
+    left: 252px;
     border-style: solid;
     position: fixed;
     border-color:#1A2130;
@@ -76,7 +76,7 @@ border-color:#83B4FF;
 
 #github{
     
-    left: 38.5%;
+    left: 58px;
     width: 35px;
     height: 35px;
     position: fixed;

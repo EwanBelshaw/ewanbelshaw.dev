@@ -49,12 +49,15 @@ border-color:#83B4FF;
 }
 
 #box1{
-    
+    position: fixed;
+    border-width: 3px;
+    border-color:#FCFFDA;
+    box-shadow: grey 0px 2px 4px;
+    background-color: #83B4FF;
+    top: 440px;
     left: 40px;
-    border-radius: 15px;
+    border-radius: 18px;
     height: 40px;
-    width: 280px;
+    width: 261px;
     border-style: solid;
-
-
 }

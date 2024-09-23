@@ -60,27 +60,22 @@ border-color:#83B4FF;
     height: 40px;
     width: 262px;
     border-style: solid;
-    text-align: center;
 }
 
 #linkedin{
-
+    top: 446px;
     left: 252px;
-    border-style: solid;
     position: fixed;
-    border-color:#1A2130;
     width: 35px;
     height: 35px;
 
 }
 
 #github{
-    
+    top: 446px;
     left: 58px;
     width: 35px;
     height: 35px;
     position: fixed;
-    border-style: solid;
-    border-color:#1A2130;
 
 }

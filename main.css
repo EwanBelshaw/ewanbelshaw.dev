@@ -47,3 +47,14 @@ border-color:#83B4FF;
 #B3{
     right: 350px;
 }
+
+#box1{
+    
+    left: 40px;
+    border-radius: 15px;
+    height: 40px;
+    width: 280px;
+    border-style: solid;
+
+
+}

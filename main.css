@@ -19,7 +19,12 @@ font-weight: bold;
 color: #1A2130;
 border: none;
 }
-
+#note{
+    position: fixed;
+    top: 400px;
+    left: 450px;
+    font-size: large;
+}
 #me{
     border-style: solid;
     top: 100px;

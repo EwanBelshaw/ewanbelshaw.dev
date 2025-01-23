@@ -8,16 +8,16 @@ body{
 }
 
 button{
-position: fixed;
-height: 40px;
-width: 100px;
-background-color: #83B4FF;
-border-radius: 15px;
-top: 30px;
-box-shadow: grey 0px 2px 4px;
-font-weight: bold;
-color: #1A2130;
-border: none;
+    position: fixed;
+    height: 40px;
+    width: 100px;
+    background-color: #83B4FF;
+    border-radius: 15px;
+    top: 30px;
+    box-shadow: grey 0px 2px 4px;
+    font-weight: bold;
+    color: #1A2130;
+    border: none;
 }
 #note{
     position: fixed;
@@ -31,9 +31,9 @@ border: none;
     left: 40px;
     border-width: 3px;
     border-radius: 15px;
-    max-width: 40%;
+    max-width: 20%;
     max-height: 40%;
-    position: fixed;
+    position: absolute;
     box-shadow: grey 0px 2px 4px;
     border-color:#83B4FF;
 
@@ -52,13 +52,13 @@ border: none;
 }
 
 #box1{
-    position: fixed;
+    position: relative;
     border-width: 3px;
     border-color:#FCFFDA;
     box-shadow: grey 0px 2px 4px;
     background-color: #83B4FF;
-    top: 440px;
-    left: 40px;
+    top: 500px;
+    left: 56px;
     border-radius: 18px;
     height: 40px;
     width: 262px;
@@ -66,19 +66,19 @@ border: none;
 }
 
 #linkedin{
-    top: 446px;
-    left: 252px;
-    position: fixed;
+    top: 3px;
+    left: 20px;
+    position: absolute;
     width: 35px;
     height: 35px;
 
 }
 
 #github{
-    top: 446px;
-    left: 58px;
+    top: 3px;
+    left: 210px;
     width: 35px;
     height: 35px;
-    position: fixed;
+    position: absolute;
 
 }

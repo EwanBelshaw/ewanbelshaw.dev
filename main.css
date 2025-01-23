@@ -47,7 +47,7 @@ button{
     right: 200px;
 }
 
-#B3{
+#meowButton{
     right: 350px;
 }
 
@@ -82,3 +82,17 @@ button{
     position: absolute;
 
 }
+
+.meow-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    z-index: 1000;
+  }
+  

@@ -1,17 +1,4 @@
 
-// Below code changes the colors on buttons when hovered
-
-function hoverButton(element) {
-    element.style.background='#609fff';
-    element.style.color='#FCFFDA'
-}
-
-function hoverExit(element){
-    element.style.background='';
-    element.style.color=''
-
-}
-
 // Below code allows for better use on mobile
 
 var siteWidth = 1280;

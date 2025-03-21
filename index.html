@@ -7,31 +7,46 @@
     <link rel="stylesheet" href="main.css">
 
 </head>
-<body>
-    <nav>
-        <a href="https://drive.google.com/drive/folders/1BOQfJ-2Cx9rskztISjQOmpBkhcNbL5fv">
-        <button onmouseover="hoverButton(this)" onmouseout="hoverExit(this)" id="B1" data-page="page1">Resume</button>
-        </a>
-        <a href="https://github.com/EwanBelshaw">
-        <button onmouseover="hoverButton(this)" onmouseout="hoverExit(this)" id="B2" data-page="page2">Projects</button>
-        </a>
-        <button onmouseover="hoverButton(this)" onmouseout="hoverExit(this)" id="meowButton" data-page="page3">Meow</button>
-        <p id="note">This website is not finished as you can probably tell! Ill finish this later :) 
-            (Also probably use a more relevant techstack)
-        </p>
+<body  style="background-color: hsl(65, 100%, 93%)">
+    <header class='header'>
+        <nav class="header-nav">
+            <button class="button" href = "https://drive.google.com/drive/folders/1BOQfJ-2Cx9rskztISjQOmpBkhcNbL5fv"> Resume </button>
+            <button class="button" id="meowButton"> Meow </button>
+        </nav>
+    </header>
+     <div class='container'>
+        <div class="card">
+            <img class="card-image" src="./assets/ewan3.png" alt="profile pic"></img>
+            <h2 class="card-title">Ewan Belshaw</h2>
+            <p class="card-text">Computer Science | Concordia University</p>
+            <hr></hr>
+            <div class="card-links-container">
+                <a href="https://github.com/EwanBelshaw" id="github">
+                    <img class= "card-links-images" src="./assets/github2.png"></img>
+                </a>
+                <a href="https://www.linkedin.com/in/ewanbelshaw/" id="linkedin">
+                    <img class= "card-links-images" src="./assets/linkedin.png"></img>
+                </a>
+            </div>
+        </div>
 
-    </nav>
-    <img id="me"    src="./Assets/Ewan.JPG">
-    
-    <div id="box1">
-        <a href="https://www.linkedin.com/in/ewanbelshaw/">
-        <img id="linkedin" src="./Assets/Linkedin.png">
-        </a>
-        <a href="https://github.com/EwanBelshaw">
-        <img id="github" src="./Assets/Github.png">
-        </a>
+
+
         
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
 
 

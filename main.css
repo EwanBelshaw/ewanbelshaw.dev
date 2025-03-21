@@ -1,89 +1,96 @@
 
 
-
-
-body{
-
-    background-color: #FCFFDA;
-}
-
-button{
-    position: fixed;
-    height: 40px;
-    width: 100px;
-    background-color: #83B4FF;
-    border-radius: 15px;
-    top: 30px;
-    box-shadow: grey 0px 2px 4px;
-    font-weight: bold;
-    color: #1A2130;
+.card{
+    border: 2px solid hsl(216, 100%, 76%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+    
+  }
+  
+  .card .card-image{
+    max-width: 60%;
+    height:auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+  
+  }
+  
+  .card .card-title{
+  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color:hsl(0, 0%, 20%)
+  }
+  
+  .card .card-text{
+  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(0%, 0%, 30%)
+  }
+  
+  .card .card-links-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card .card-links-images{
+    max-width: 40px;
+  }
+  
+  .card #github{
+    margin-left: 5px;
+    margin-right: auto;
+  }
+  
+  .card #linkedin{
+    margin-right: 5px;
+    margin-left: auto;
+  }
+  
+  
+  .button{
+    background-color: 	hsl(216, 100%, 76%);
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
     border: none;
-}
-#note{
-    position: fixed;
-    top: 400px;
-    left: 450px;
-    font-size: large;
-}
-#me{
-    border-style: solid;
-    top: 100px;
-    left: 40px;
-    border-width: 3px;
-    border-radius: 15px;
-    max-width: 20%;
-    max-height: 40%;
-    position: absolute;
-    box-shadow: grey 0px 2px 4px;
-    border-color:#83B4FF;
-
-}
-#B1{
-    right: 50px;
-
-}
-
-#B2{
-    right: 200px;
-}
-
-#meowButton{
-    right: 350px;
-}
-
-#box1{
-    position: relative;
-    border-width: 3px;
-    border-color:#FCFFDA;
-    box-shadow: grey 0px 2px 4px;
-    background-color: #83B4FF;
-    top: 500px;
-    left: 56px;
-    border-radius: 18px;
-    height: 40px;
-    width: 262px;
-    border-style: solid;
-}
-
-#linkedin{
-    top: 3px;
-    left: 20px;
-    position: absolute;
-    width: 35px;
-    height: 35px;
-
-}
-
-#github{
-    top: 3px;
-    left: 210px;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-
-}
-
-.meow-image {
+    cursor: pointer;
+    margin-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    
+  
+  
+    
+  
+  }
+  .header{
+    display: flex;
+    background-color: hsl(65, 100%, 93%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  
+  
+  }
+  .header .header-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    align-items: center;
+  
+  }
+  
+  .meow-image {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -95,4 +102,3 @@ button{
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
     z-index: 1000;
   }
-  

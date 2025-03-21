@@ -1,3 +1,11 @@
+function hoverButton(element) {
+  element.style.background='hsl(216, 100%, 70%)';
+  
+}
+
+function hoverExit(element){
+  element.style.background='';
+}
 
 // Below code allows for better use on mobile
 
@@ -45,6 +53,7 @@ const meowImages = [
     img.style.transform = `translate(-50%, -50%) rotate(${Math.random() * 10 - 5}deg)`;
     
     document.body.appendChild(img);
+    
   });
   
   

@@ -56,12 +56,13 @@
   
   .button{
     background-color: 	hsl(216, 100%, 76%);
-    color:white;
+    color:hsl(65, 100%, 93%);
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     margin-left: 10px;
+    margin-right:10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
@@ -69,17 +70,20 @@
     display: flex;
     flex-direction: row;
     
-  
-  
-    
-  
   }
+  .center-Content{
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
   .header{
     display: flex;
     background-color: hsl(65, 100%, 93%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-  
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 15px;
+    margin-bottom: 20px;
   
   }
   .header .header-nav{

@@ -65,15 +65,17 @@
   }
 
   .card .card-list{
-    list-style-type: '';
+    list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
 
-  .card .card-list-container {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+  .card .card-list li{
+    text-align: left;
+    
   }
   
   

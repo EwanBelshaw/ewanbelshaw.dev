@@ -1,67 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1280, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, initial-scale=1" />
     <title>EwanBelshaw</title>
-    <link rel="stylesheet" href="main.css">
-
-</head>
-<body  style="background-color: hsl(65, 100%, 93%)">
-    <header class='header'>
-        <nav class="header-nav">
-            <button onmouseover="hoverButton(this)" onmouseout="hoverExit(this)" class="button" href = "https://drive.google.com/drive/folders/1BOQfJ-2Cx9rskztISjQOmpBkhcNbL5fv"> Resume </button>
-            <button onmouseover="hoverButton(this)" onmouseout="hoverExit(this)" class="button" id="meowButton"> Meow </button>
-        </nav>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body style="background-color: hsl(65, 100%, 93%)">
+    <header class="header">
+      <nav class="header-nav">
+        <a
+          href="https://drive.google.com/drive/folders/1BOQfJ-2Cx9rskztISjQOmpBkhcNbL5fv"
+        >
+          <button
+            onmouseover="hoverButton(this)"
+            onmouseout="hoverExit(this)"
+            class="button"
+          >
+            Resume
+          </button>
+        </a>
+        <button
+          onmouseover="hoverButton(this)"
+          onmouseout="hoverExit(this)"
+          class="button"
+          id="meowButton"
+        >
+          Meow
+        </button>
+      </nav>
     </header>
     <div class="center-Content">
-     <div class='container'>
-        
+      <div class="container">
         <div class="card">
-            <img class="card-image" src="./Assets/ewan3.png" alt="profile pic"></img>
-            <h2 class="card-title">Ewan Belshaw</h2>
-            <p class="card-text">Computer Science | Concordia University</p>
-            <hr></hr>
-            <div class="card-links-container">
-                <a href="https://github.com/EwanBelshaw" id="github">
-                    <img class= "card-links-images" src="./Assets/github2.png"></img>
-                </a>
-                <a href="https://www.linkedin.com/in/ewanbelshaw/" id="linkedin">
-                    <img class= "card-links-images" src="./Assets/Linkedin.png"></img>
-                </a>
-            </div>
+          <img class="card-image" src="./Assets/ewan3.png" alt="profile pic" />
+          <h2 class="card-title">Ewan Belshaw</h2>
+          <p class="card-text">Computer Science | Concordia University</p>
+          <hr />
+          <div class="card-links-container">
+            <a href="https://github.com/EwanBelshaw" id="github">
+              <img class="card-links-images" src="./Assets/github2.png" />
+            </a>
+            <a href="https://www.linkedin.com/in/ewanbelshaw/" id="linkedin">
+              <img class="card-links-images" src="./Assets/Linkedin.png" />
+            </a>
+          </div>
         </div>
-        
+      </div>
+      <div class="container">
+        <div class="card">
+          <h2 id="card2" class="card-title">Skills</h2>
+          <hr />
+          <h3 class="card-section">Technical</h3>
+          <ul class="card-list">
+            <div class="card-text card-list-container">
+              <li>Java</li>
+              <li>C++</li>
+              <li>SQL</li>
 
-
-        
+            </div>
+            <div class="card-text card-list-container">
+              <li>C</li>
+              <li>HTML/CSS</li>
+              <li>PHP</li>
+            </div>
+            <div class="card-text card-list-container">
+                <li>Python</li>
+                <li>Git</li>
+                <li>JavaScript</li>
+            </div>
+            <div class="card-text card-list-container">
+              <li>OOP</li>
+              <li>Figma</li>
+              <li>C#</li>
+            </div>
+        </ul>
+        </div>
+      </div>
     </div>
-</div>
 
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-    
-
-
-   
-
-
-    <script src="main.js"> </script>
-
-
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>

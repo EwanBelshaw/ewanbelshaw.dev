@@ -9,9 +9,11 @@
     text-align: center;
     max-width: 300px;
     display: inline-block;
-    
+    width: 300px;
+    min-width: auto;
   }
   
+
   .card .card-image{
     max-width: 60%;
     height:auto;
@@ -27,7 +29,12 @@
     margin: 0;
     color:hsl(0, 0%, 20%)
   }
-  
+
+  .card .card-section{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+  }
+
   .card .card-text{
   
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,6 +58,24 @@
   .card #linkedin{
     margin-right: 5px;
     margin-left: auto;
+  }
+
+  .card #card2{
+    text-align: left;
+  }
+
+  .card .card-list{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .card .card-list li{
+    text-align: left;
+    
   }
   
   

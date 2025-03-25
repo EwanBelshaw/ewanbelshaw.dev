@@ -1,4 +1,27 @@
 
+.box{
+    border: 2px solid hsl(216, 100%, 76%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 700px;
+    width: 700px;
+    min-width: auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.box .education-list{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: left;
+}
 
 .card{
     border: 2px solid hsl(216, 100%, 76%);

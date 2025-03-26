@@ -1,4 +1,40 @@
 
+.box{
+    border: 2px solid hsl(216, 100%, 76%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 700px;
+    width: 700px;
+    min-width: auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.box .education-list{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: left;
+}
+
+.box .card-text{
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0%, 0%, 30%)
+}
+
+.box .card-title{
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  color:hsl(0, 0%, 20%)
+}
 
 .card{
     border: 2px solid hsl(216, 100%, 76%);
@@ -97,8 +133,8 @@
     
   }
   .center-Content{
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
   }
 
   .header{

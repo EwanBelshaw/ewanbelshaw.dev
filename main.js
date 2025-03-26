@@ -40,9 +40,11 @@ const meowImages = [
   ];
 
   document.getElementById('meowButton').addEventListener('click', function() {
-    // Remove existing image if present
+    // Remove existing image and close button if present
     const existingImage = document.querySelector('.meow-image');
+    const existingCloseBtn = document.querySelector('.close-button');
     if (existingImage) existingImage.remove();
+    if (existingCloseBtn) existingCloseBtn.remove();
   
     // Create new image element
     const img = document.createElement('img');
@@ -52,8 +54,15 @@ const meowImages = [
     // Add slight rotation for visual interest
     img.style.transform = `translate(-50%, -50%) rotate(${Math.random() * 10 - 5}deg)`;
     
-    document.body.appendChild(img);
+    // Create close button
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'close-button';
+    closeBtn.innerHTML = 'X';
+    closeBtn.onclick = function() {
+      img.remove();
+      closeBtn.remove();
+    };
     
+    document.body.appendChild(img);
+    document.body.appendChild(closeBtn);
   });
-  
-  
